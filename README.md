@@ -32,5 +32,11 @@ Agustina Brutti
         contacto: content="contacto,consultas,transportista,comerciante"
         nosotros: content="nosotros,transportista,comerciante,plataforma,gestion,transporte,Acercarte,servicio,envios,despacho,despachar"
         servicios: content="servicios,costos,envios,soporte,E-commerce,ecommerce,despachar,despacha,logistico,tarifas"
+4º // Se agregaron meta descriptions en todas las paginas:
+        index: content="Servicio logístico de calidad para E-Commerce con envíos exitosos. ¡Contactá con nosotros! Tenemos cobertura a través de nuestra red de sucursales. Seguimiento online de entregas."
+        blog: content="Gracias a Acercarte podemos hacer envíos de todos nuestros productos a cualquier parte del país utilizando una única plataforma."
+        contacto: content="Ante cualquier duda se recomienda consultar las preguntas frecuentes que se encuentran en nuestra página, o contactarse con nosotros."
+        nosotros: content="Somos una plataforma que te conecta con múltiples operadores y tipos de servicio en un solo lugar. Brindamos soporte y herramientas para ayudarte a mejorar tu gestión, y a la vez ofrecemos distintas alternativas de envío para que puedas optimizar costos y tiempos de entrega."
+        servicios: content="Ofrecemos distintas alternativas de envío para que puedas optimizar costos y tiemposde entrega. Brindamos soporte y herramientas para ayudarte a mejorar tu gestión."
 
 ### End
