@@ -1,8 +1,8 @@
-# scss-proyect
+# scss-seo-proyect
 #### Autor/a del proyecto
 Agustina Brutti
 
-#### Contenidos del proyecto
+#### Tabla de contenidos del proyecto
 
 - Html
 - Scripts
@@ -12,22 +12,25 @@ Agustina Brutti
 - Bootstrap
 - Git
 - Github - Repositorios
+- Sass
+- Operadores, mapas, extend, mixin
+- SEO Optimización de motores de búsqueda
+- Keywords
+- Favicon
+- Jerarquía de archivos
 
 ```html
 <!-- Spanish -->
 <script src="../dist/js/languages/es.js"></script>
 
-### Page break
+### Cambios realizados
+1º // Se agregó en el index y todas las page el Favicon.
+2º // Cambio de <title> en todos los html del proyecto, para una mejor vista de qué página se está viendo.
+3º // Se agregaron estos Keywords:
+        index: content="negocio,envios,logistica,repartir,comerciantes,transportistas,comerciante,transportista,vender,producto,entregas"
+        blog: content="blog,logistica,ecommerce,transporte,comercio,empresa,Acercarte,clientes"
+        contacto: content="contacto,consultas,transportista,comerciante"
+        nosotros: content="nosotros,transportista,comerciante,plataforma,gestion,transporte,Acercarte,servicio,envios,despacho,despachar"
+        servicios: content="servicios,costos,envios,soporte,E-commerce,ecommerce,despachar,despacha,logistico,tarifas"
 
-### Secuencia de diagrama
-                    
-```seq
-Agustina->Argentina: Says Hello 
-Note right of Argentina: Hubo mucho\codigo
-Argentina-->Agustina: Como te sientes? 
-Agustina->>Argentina: Con mucha resaca de Responsive...
-```
-
-- PD: No sabia como utilizar las páginas que mandaron de ejemplo y si podia 
-guardar las carpetas que decia de descargar dentro del proyecto...
 ### End
