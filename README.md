@@ -1,4 +1,4 @@
-# bootstrap-proyect
+# scss-proyect
 #### Autor/a del proyecto
 Agustina Brutti
 
