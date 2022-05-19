@@ -2,6 +2,7 @@
 /*Import de @medias abajo de todo*/
 @import "reset";
 
+/*Header y navegador*/
 .header {
 	z-index: 1;
 	top: 0%;
@@ -103,12 +104,14 @@
 		display: inline-block;
 	}
 }
+/*Fondo body*/
 body {
 	background: url("../imagenes/wave-2.png") no-repeat fixed;
 	margin: 0px 0px;
 	font-family: $font-family_1;
 	height: 100%;
 }
+/*Imagenes de la home*/
 .img1-home {
 	width: 96%;
 	display: inline;
@@ -131,6 +134,7 @@ body {
 	height: auto;
 	margin: 0px auto 10px 56px;
 }
+/*Home*/
 .main-container {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -324,6 +328,7 @@ body {
 	height: 26px;
 	text-align: center;
 }
+/*Footer*/
 footer {
 	margin-top: 0%;
 	padding: 34px 0 0;
@@ -356,10 +361,23 @@ footer {
 .logo-redes1 {
 	margin-right: 22px;
 }
+/*MAPA SASS II*/
+	$redes:(
+		instagram: yellow,
+		facebook:blue
+	);
+	@each $red, $color in $redes {
+		.red-#{$red}:hover{
+			box-shadow: 5px 5px $color;
+		}
+	}
+
+
 .copyright {
 	margin-top: 2%;
 	font-size: 12px;
 }
+/*Página servicios*/
 .img1-servicios {
 	width: 100%;
 }
@@ -427,11 +445,13 @@ footer {
 .animate__animated.animate__bounce {
 	--animate-duration: 2s;
 }
+/*Página contacto*/
+//Operadores
 .pageC {
 	.title-contacto {
 		text-align: center;
 		margin-top: 2%;
-		font-size: 20px;
+		font-size: $font-size*10;
 		color: $color_4;
 		text-shadow: -4px -2px 12px black;
 	}
@@ -440,9 +460,21 @@ footer {
 	p {
 		text-align: center;
 		margin-top: 1%;
-		margin-bottom: 2%;
+		margin-bottom: 1%;
 		text-transform: uppercase;
-		font-size: 12px;
+		font-size: $font-size*6;
+	}
+}
+
+.signboard-info{
+	width:350px;
+	margin:0px auto;
+	padding-bottom:$spacing*2;
+	p {
+		font-size:$font-size*6;
+		background-color:$background-color_9;
+		color:$color_7;
+		text-align: center;
 	}
 }
 .row {
@@ -467,6 +499,7 @@ footer {
 		margin: 0px;
 	}
 }
+/*Página nosotros*/
 .title-nosotros {
 	text-align: center;
 	margin-top: 4%;
@@ -518,14 +551,8 @@ footer {
 	margin: auto;
 	width: 100%;
 }
+/*Página blog*/
 .title-blog {
-	text-align: center;
-	margin-top: 4%;
-	font-size: 22px;
-	color: $color_4;
-	text-shadow: 0px 0px 8px black;
-}
-.subtitle-blog {
 	text-align: center;
 	margin-top: 4%;
 	font-size: 22px;
@@ -584,7 +611,9 @@ footer {
 		&::before {
 			display: block;
 		}
+		//EXTEND
 		.subtitle-blog {
+			@extend .title-blog;
 			opacity: 1 !important;
 			color: $color_4 !important;
 			text-shadow: 0px 0px 8px black;
@@ -597,15 +626,27 @@ footer {
 	margin: auto;
 	flex-direction: column;
 }
+//MIXIN
+@mixin size ($alto,$ancho,$border-radius) {
+	height: $alto;
+	width: $ancho;
+}
 .border {
-	height: 369px;
-	width: 290px;
+	@include size(369px,290px);
 	background: transparent;
 	border-radius: 10px;
 	position: relative;
 }
+
+@mixin size2 ($altura,$anchura,$margin) 
+ {
+	height: $altura;
+	width: $anchura;
+	margin-bottom: $margin;
+}
 .card {
-	height: 379px;
+	@include size2(379px,384px,0px);
+	// height: 379px;
 	background: #808080;
 	border-radius: 10px;
 	overflow: hidden;
@@ -616,9 +657,8 @@ footer {
 	align-items: center;
 	position: relative;
 	margin-bottom: 20px;
-	width: 384px;
-	width: 600px;
-	margin-bottom: 0px;
+	// width: 384px;
+	// margin-bottom: 0px;
 }
 .card0 {
 	background: url("https://www.zippin.com.ar/themes/zippin_v2/assets/images/landing21/testimonies/hogarstore.jpg") center center no-repeat;

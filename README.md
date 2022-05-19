@@ -16,8 +16,8 @@ Agustina Brutti
 - Operadores, mapas, extend, mixin
 - SEO Optimización de motores de búsqueda
 - Keywords
+- Description
 - Favicon
-- Jerarquía de archivos
 
 ```html
 <!-- Spanish -->
@@ -38,5 +38,12 @@ Agustina Brutti
         contacto: content="Ante cualquier duda se recomienda consultar las preguntas frecuentes que se encuentran en nuestra página, o contactarse con nosotros."
         nosotros: content="Somos una plataforma que te conecta con múltiples operadores y tipos de servicio en un solo lugar. Brindamos soporte y herramientas para ayudarte a mejorar tu gestión, y a la vez ofrecemos distintas alternativas de envío para que puedas optimizar costos y tiempos de entrega."
         servicios: content="Ofrecemos distintas alternativas de envío para que puedas optimizar costos y tiemposde entrega. Brindamos soporte y herramientas para ayudarte a mejorar tu gestión."
+5º // Se agregó cambios en la page Contactos, un cartel para aplicar operaciones. Línea 469 del main.scss se encuentra los estilos, y en la línea 81
+        del html contacto está el texto nuevo. En las líneas 441 y 452 del main.scss se agregó operaciones con otra variable, se encuentran en el
+        archivo de _variables.scss.
+6º // Se agregó en el footer un mapa con hover. Línea 364 del archivo de main.scss.
+7º // Se agregó un extend en la línea 616 del main.scss.
+8º // Se agrega el mixin en la línea 630 y se aplican los valores en el border línea 634, y otro mixin en la línea 641 y se incluye en la 648 del
+        archivo main.scss.
 
 ### End

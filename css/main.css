@@ -1,7 +1,11 @@
+@charset "UTF-8";
+/*Nuevas variables para tp sass II y seo*/
+/*Import de @medias abajo de todo*/
 * {
   margin: 0;
   padding: 0; }
 
+/*Header y navegador*/
 .header {
   z-index: 1;
   top: 0%;
@@ -84,12 +88,14 @@
 .form-inline .form-control {
   display: inline-block; }
 
+/*Fondo body*/
 body {
   background: url("../imagenes/wave-2.png") no-repeat fixed;
   margin: 0px 0px;
   font-family: Roboto, "Helvetica Neue", sans-serif;
   height: 100%; }
 
+/*Imagenes de la home*/
 .img1-home {
   width: 96%;
   display: inline; }
@@ -112,6 +118,7 @@ body {
   height: auto;
   margin: 0px auto 10px 56px; }
 
+/*Home*/
 .main-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -292,6 +299,7 @@ body {
   height: 26px;
   text-align: center; }
 
+/*Footer*/
 footer {
   margin-top: 0%;
   padding: 34px 0 0;
@@ -324,10 +332,18 @@ footer {
 .logo-redes1 {
   margin-right: 22px; }
 
+/*MAPA SASS II*/
+.red-instagram:hover {
+  box-shadow: 5px 5px yellow; }
+
+.red-facebook:hover {
+  box-shadow: 5px 5px blue; }
+
 .copyright {
   margin-top: 2%;
   font-size: 12px; }
 
+/*Página servicios*/
 .img1-servicios {
   width: 100%; }
 
@@ -388,6 +404,7 @@ footer {
 .animate__animated.animate__bounce {
   --animate-duration: 2s; }
 
+/*Página contacto*/
 .pageC .title-contacto {
   text-align: center;
   margin-top: 2%;
@@ -398,9 +415,19 @@ footer {
 .text-contact.pageC p {
   text-align: center;
   margin-top: 1%;
-  margin-bottom: 2%;
+  margin-bottom: 1%;
   text-transform: uppercase;
   font-size: 12px; }
+
+.signboard-info {
+  width: 350px;
+  margin: 0px auto;
+  padding-bottom: 10px; }
+  .signboard-info p {
+    font-size: 12px;
+    background-color: #6dfd9365;
+    color: black;
+    text-align: center; }
 
 .row {
   padding: 0px 0px 20px 0px !important; }
@@ -422,6 +449,7 @@ footer {
   .form-mine .row {
     margin: 0px; }
 
+/*Página nosotros*/
 .title-nosotros {
   text-align: center;
   margin-top: 4%;
@@ -468,20 +496,21 @@ footer {
   margin: auto;
   width: 100%; }
 
-.title-blog {
+/*Página blog*/
+.title-blog, .section6 .container .subtitle-blog {
   text-align: center;
   margin-top: 4%;
   font-size: 22px;
   color: rgba(255, 255, 255, 0.82);
   text-shadow: 0px 0px 8px black; }
 
-.subtitle-blog {
-  text-align: center;
-  margin-top: 4%;
-  font-size: 22px;
-  color: rgba(255, 255, 255, 0.82);
-  text-shadow: 0px 0px 8px black; }
-
+/*.subtitle-blog {
+	text-align: center;
+	margin-top: 4%;
+	font-size: 22px;
+	color: $color_4;
+	text-shadow: 0px 0px 8px black;
+}*/
 #textBlog {
   text-align: justify;
   width: 100%;
@@ -1114,7 +1143,7 @@ footer {
     margin-bottom: 10px; }
   #mapa {
     width: 60%; }
-  .title-blog {
+  .title-blog, .section6 .container .subtitle-blog {
     margin-top: 2%;
     font-size: 26px; }
   .subtitle-blog {
@@ -1522,7 +1551,7 @@ footer {
     margin: auto;
     font-size: 14px;
     margin-bottom: 10px; }
-  .title-blog {
+  .title-blog, .section6 .container .subtitle-blog {
     margin-top: 2%;
     padding-bottom: 1%;
     font-size: 30px; }
