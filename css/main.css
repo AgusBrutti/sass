@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /*Nuevas variables para tp sass II y seo*/
+/*Variables nueva 3ra entrega*/
 /*Import de @medias abajo de todo*/
 * {
   margin: 0;
@@ -43,22 +44,39 @@
   text-shadow: none; }
 
 .navbar-inverse .navbar-nav > li > a {
-  color: black !important;
-  text-shadow: none; }
+  color: white !important;
+  text-shadow: 0px 0px 4px black; }
 
 .navbar-inverse .navbar-nav > .active > a {
-  background-color: transparent; }
+  background-color: transparent;
+  color: white !important;
+  text-shadow: 0px 0px 4px black; }
   .navbar-inverse .navbar-nav > .active > a:focus {
-    background-color: transparent; }
+    background-color: transparent;
+    color: white !important;
+    text-shadow: 0px 0px 4px black; }
   .navbar-inverse .navbar-nav > .active > a:hover {
-    background-color: transparent; }
+    background-color: transparent;
+    color: white !important;
+    text-shadow: 0px 0px 4px black; }
 
 .navbar-inverse .navbar-nav > .open > a {
-  background-color: transparent; }
+  background-color: transparent;
+  color: white !important;
+  text-shadow: 0px 0px 4px black; }
   .navbar-inverse .navbar-nav > .open > a:focus {
     background-color: transparent; }
   .navbar-inverse .navbar-nav > .open > a:hover {
     background-color: transparent; }
+
+.caret {
+  color: black; }
+
+.dropdown-menu {
+  background-color: #28be8f70; }
+  .dropdown-menu > li > a {
+    color: white !important;
+    text-shadow: 0px 0px 4px black; }
 
 .nav.navbar-nav .active {
   background-color: transparent; }
@@ -504,13 +522,6 @@ footer {
   color: rgba(255, 255, 255, 0.82);
   text-shadow: 0px 0px 8px black; }
 
-/*.subtitle-blog {
-	text-align: center;
-	margin-top: 4%;
-	font-size: 22px;
-	color: $color_4;
-	text-shadow: 0px 0px 8px black;
-}*/
 #textBlog {
   text-align: justify;
   width: 100%;
@@ -572,12 +583,15 @@ footer {
 .border {
   height: 369px;
   width: 290px;
+  border-radius: 0px;
   background: transparent;
   border-radius: 10px;
   position: relative; }
 
 .card {
   height: 379px;
+  width: 384px;
+  margin-bottom: 0px;
   background: #808080;
   border-radius: 10px;
   overflow: hidden;
@@ -587,10 +601,7 @@ footer {
   justify-content: center;
   align-items: center;
   position: relative;
-  margin-bottom: 20px;
-  width: 384px;
-  width: 600px;
-  margin-bottom: 0px; }
+  margin-bottom: 20px; }
 
 .card0 {
   background: url("https://www.zippin.com.ar/themes/zippin_v2/assets/images/landing21/testimonies/hogarstore.jpg") center center no-repeat;

@@ -45,5 +45,6 @@ Agustina Brutti
 7º // Se agregó un extend en la línea 616 del main.scss.
 8º // Se agrega el mixin en la línea 630 y se aplican los valores en el border línea 634, y otro mixin en la línea 641 y se incluye en la 648 del
         archivo main.scss.
-
+9º // Se arregló el formato de colores y sombras del navbar - menú.
+10º // Se agrega el meta author en todas las page.
 ### End
